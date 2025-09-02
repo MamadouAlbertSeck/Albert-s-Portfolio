@@ -371,6 +371,21 @@ body {
   gap: 30px;
 }
 
+.contact-info p {
+  font-size: 1rem;
+  color: #fff;       /* couleur du texte */
+  margin-top: 10px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;         /* espace entre icône et texte */
+}
+
+.contact-info p a {
+  color: inherit;    /* garde la même couleur que le texte */
+  text-decoration: none; /* supprime le soulignement */
+}
+
 .contact-right img {
   width: 300px;
   max-width: 100%;
